@@ -1,17 +1,16 @@
 .navbar {
-    border-bottom: 1px solid #22333b;
+    border-bottom: 1px solid white;
     padding: .5em;
 }
 
 .navbar-name{
     color: white;
     font-family: 'Bebas Neue', Arial, sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     text-decoration: none;
     list-style: none;
     text-align: center;
     margin-top: 0.5em;
-    margin-bottom: 0;
 }
 
 .navbar-nav {
