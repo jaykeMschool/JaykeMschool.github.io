@@ -1,3 +1,5 @@
+<!--navbar-->
+
 .navbar {
     border-bottom: 1px solid white;
     padding: .5em;
@@ -47,6 +49,64 @@ a:hover {
     color: white;
     background-color: black;
     justify-content: space-between;
+}
+
+
+
+
+<!--contactpage-->
+
+.contact-form-background {
+    color: black;
+}
+
+.contact-form-titles {
+    color: white;
+}
+
+.contact-form label, 
+.contact-form input, 
+.contact-form select, 
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    color: black;
+}
+
+.contact-form label {
+    margin-bottom: 0.5em;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    border-bottom: 1px solid #22333b;
+    padding: 0.5em;
+    border-radius: 8px;
+}
+
+.contact-form :invalid{
+    border-color: #ff0000;
+    color: #ff0000;
+}
+
+.contact-form :invalid::placeholder{
+    color: #ff0000;
+}
+
+.contact-form .button{
+    cursor: pointer;
+    padding: .8em;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.contact-form button.clear{
+    background-color: #ff0000;
+}
+
+.contact-form button.clear:hover{
+    background-color: #cc0000;
 }
 
 
