@@ -5,6 +5,10 @@
     padding: .5em;
 }
 
+.nav-link {
+    margin: 1em;
+}
+
 .navbar-name{
     color: white;
     font-family: 'Bebas Neue', Arial, sans-serif;
@@ -60,6 +64,12 @@ a:hover {
     color: black;
 }
 
+.cfheader1 {
+    text-align: center;
+    color: gray;
+    font-size: 1.1em;
+}
+
 .contact-form-titles {
     color: white;
 }
@@ -73,6 +83,12 @@ a:hover {
     color: black;
 }
 
+.contact-form-label{
+    display: block;
+    width: 100%;
+    color: white;
+}
+
 .contact-form label {
     margin-bottom: 0.5em;
 }
@@ -80,7 +96,7 @@ a:hover {
 .contact-form input,
 .contact-form select,
 .contact-form textarea {
-    border-bottom: 1px solid #22333b;
+    border-bottom: 1px solid black;
     padding: 0.5em;
     border-radius: 8px;
 }
@@ -97,16 +113,17 @@ a:hover {
 .contact-form .button{
     cursor: pointer;
     padding: .8em;
-    width: 100%;
+    width: 15%;
     font-size: 1.2em;
+    text-align: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: white;
 }
 
-.contact-form button.clear{
-    background-color: #ff0000;
-}
-
-.contact-form button.clear:hover{
-    background-color: #cc0000;
+.contact-form button.button:hover{
+    background-color: black;
+    color: white;
 }
 
 
@@ -115,9 +132,11 @@ a:hover {
 
 
 
+<!--aboutpage-->
 
-
-
+.text {
+    color: white;
+}
 
 
 
