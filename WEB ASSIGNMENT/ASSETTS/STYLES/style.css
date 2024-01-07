@@ -141,6 +141,15 @@ a:hover {
 
 
 
+<!--articlelistpage-->
+
+
+.article-item {
+    display: block;
+    width: 10%;
+    border-radius: 8px;
+}
+
 
 
 
