@@ -1,3 +1,27 @@
+body {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+    
+footer{
+    background-color: black;
+    color: aliceblue;
+    font-size: .9em;
+    margin-top: 4em;
+    padding: 1.11em 0;
+}
+
+
+
+
+
+
+
+
+
+
 <!--navbar-->
 
 .navbar {
@@ -56,13 +80,50 @@ a:hover {
 }
 
 
+
+
+
+
+
+
+<!--homepage-->
+
 .index{
     background-color: black;
 }
 
 .index img{
-    width: 50%;
+    width: 100%;
 }
+
+.jakemallialogo{
+    background-color: black;
+}
+
+.jakemallialogo img{
+    width: 100%;
+}
+
+.home-text {
+    color: white;
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-size: 160%;
+    text-align: center;
+}
+
+.home-button {
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -140,6 +201,10 @@ a:hover {
 
 
 
+
+
+
+
 <!--aboutpage-->
 
 .text {
@@ -154,73 +219,24 @@ a:hover {
 
 
 
+
+
+
+
+
+
 <!--articlelistpage-->
 
 
 .article-item {
     display: block;
-    width: 100%;
+    width: 70%;
     border-radius: 8px;
 }
 
 
 .article-item img{
     display: block;
-    width:30%;
+    width:70%;
+    align-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-body {
-    background-color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.5;
-}
-
-    
-footer{
-    background-color: black;
-    color: aliceblue;
-    font-size: .9em;
-    margin-top: 4em;
-    padding: 1.11em 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
