@@ -81,21 +81,21 @@ a:hover {
 
 
 .container .row .col-3 a .article-item{
-    background-color: red;
+    background-color: black;
     padding: 0%;
     align-items: center;
     height: 300px;
 }
 
 .container .row .col-5 a .article-item{
-    background-color: red;
+    background-color: black;
     padding: 0%;
     align-items: center;
     height: 300px;
 }
 
 .container .row .col-7 a .article-item{
-    background-color: red;
+    background-color: black;
     padding: 0%;
     align-items: center;
     height: 300px;
@@ -268,15 +268,35 @@ a:hover {
 
 .article-item {
     display: block;
-    width: 70%;
+    width: 100%;
     border-radius: 8px;
 }
 
 
 .article-item img{
     display: block;
-    width:70%;
+    width:100%;
     align-items: center;
+}
+
+.article-item video{
+    display: block;
+    width: 100%;
+    align-items: center;
+}
+
+
+.design-text{
+    color: white;
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-size: 160%;
+}
+
+.design-text2{
+    color: white;
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-size: 160%;
+    text-align: center;
 }
 
 
